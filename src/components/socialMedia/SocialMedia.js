@@ -115,6 +115,18 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+      
+      {socialMediaLinks.stackoverflow ? (
+        <a
+          href={socialMediaLinks.telegram}
+          className="icon-button telegram"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab telegram"></i>
+          <span></span>
+        </a>
+      ) : null}
 
       {socialMediaLinks.kaggle ? (
         <a
