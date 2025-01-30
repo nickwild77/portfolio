@@ -115,7 +115,7 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
-      
+
       {socialMediaLinks.stackoverflow ? (
         <a
           href={socialMediaLinks.telegram}
