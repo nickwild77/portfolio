@@ -116,14 +116,14 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.stackoverflow ? (
+      {socialMediaLinks.telegram ? (
         <a
           href={socialMediaLinks.telegram}
           className="icon-button telegram"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab telegram"></i>
+          <i className="fab fa-telegram"></i>
           <span></span>
         </a>
       ) : null}
